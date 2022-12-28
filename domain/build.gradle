@@ -1,0 +1,27 @@
+plugins {
+    id "java-library"
+    id 'org.jetbrains.kotlin.jvm'
+    id 'kotlin'
+    id "kotlin-kapt"
+}
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+dependencies {
+
+    implementation kotlinCore
+    implementation javax
+    implementation dagger.libs
+    implementation rx
+
+    kapt dagger.compiler
+
+    testImplementation unitTesting
+}
+
+test {
+    useJUnitPlatform {
+        includeEngines 'spek2'
+    }
+}

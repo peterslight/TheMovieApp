@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MvpMatch</string>
+    <string name="title">Title</string>
+    <string name="retry">Retry</string>
+    <string name="username">Username</string>
+    <string name="add_favourite">Add to Favourites</string>
+    <string name="remove_favourite">Remove Favourite</string>
+    <string name="exclude_movie">Exclude this movie from search</string>
+    <string name="include_movie">Include this movie in search</string>
+    <string name="home">Home</string>
+    <string name="no_favourites">you have no favourites, search some movies and add them to your favourites</string>
+    <string name="search_movies">search movies</string>
+    <string name="search">search</string>
+    <string name="removed">removed</string>
+    <string name="all_caught_up">all caught up</string>
+    <string name="we_found_no_results_for_try_searching_another_movie">we found no results for %1$s, try searching another movie</string>
+    <string name="enter_text_to_search">add a text to search</string>
+    <string name="no_internet">you have no internet connection</string>
+    <string name="network_error">unable to resolve host</string>
+    <string name="network_connect">failed to connect</string>
+</resources>
