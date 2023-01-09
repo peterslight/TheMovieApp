@@ -12,6 +12,7 @@ class MainViewHolder(private val item: ItemMainBinding, private val listener: Mo
             if (it) Glide.with(item.root.context).load(movie.posterPath).into(item.itemImaqe)
         }
         item.itemText.text = movie.title
+        item.itemRating.text = movie.voteAverage.toString()
         item.btFav.setOnClickListener { listener.onFavouriteClick(movie) }
         item.root.setOnClickListener { listener.onItemClick(movie) }
     }
