@@ -14,6 +14,12 @@ Android app which will enable the user to search for movies/shows using The Movi
 - Implement an option to hide movie/show form future search results (this should persist on app restart)
 - User should be informed if the internet connection is lost
 
+### Download Apk
+https://github.com/peterslight/TheMovieApp/blob/main/app/release/Peterstev-Match.apk
+
+### Apk folder
+https://github.com/peterslight/TheMovieApp/blob/main/app/release
+
 ### How To Run
 - clone project
 - signup with [TheMovieDb](https://themoviedb.org), then head to settings -> Api.
